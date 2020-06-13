@@ -1,0 +1,32 @@
+{
+  "name": "fastify-api",
+  "version": "1.0.0",
+  "description": "API using fastify and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickysimonaston/fastify-api.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "fastify",
+    "mongodb"
+  ],
+  "author": "Ricky Aston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rickysimonaston/fastify-api/issues"
+  },
+  "homepage": "https://github.com/rickysimonaston/fastify-api#readme",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^2.14.1",
+    "fastify-swagger": "^2.6.0",
+    "mongoose": "^5.9.18",
+    "nodemon": "^2.0.4"
+  }
+}
